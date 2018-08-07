@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Configuration>
+    <InstaWebProcess>
+        <Process port="8001"></Process>
+        <Process port="8002"></Process>
+        <!-- Add more processes here for further scaling -->
+    </InstaWebProcess>
+	<InstaMSWordProcess>
+        <Process port="8090"></Process>
+        <!-- Add more processes here for further scaling of MS Word servers -->
+    </InstaMSWordProcess>
+</Configuration>
