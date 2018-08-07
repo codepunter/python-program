@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Configuration>
+	<NetworkLogger port="9000"/>
+	<InstaDataCollector>
+        <Process port="9001"></Process>
+        <Process port="9002"></Process>
+        <!-- Add more processes here for further scaling -->
+    </InstaDataCollector>
+</Configuration>
